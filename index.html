@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurnal Belajar Saya</title>
+    <style>
+        /* Gaya Dasar */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Kotak Utama */
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        p.intro {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        p.description {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        strong {
+            color: #e74c3c; /* Warna merah untuk penekanan */
+        }
+
+        /* Gaya Tombol Navigasi */
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 50px;
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        /* Responsif untuk HP */
+        @media (max-width: 480px) {
+            h1 { font-size: 2rem; }
+            .nav-links { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p class="intro">Mari Kita...</p>
+        <h1>Belajar Bersama!</h1>
+        <p class="description">
+            Sekarang belajar juga bisa digital lho. Jadi tidak ada lagi alasan untuk tidak menempa <strong>ilmu!</strong> Dimana ada kemauan, di sana akan ada jalan!
+        </p>
+
+        <div class="nav-links">
+            <a href="learning.html" class="btn">Materi Belajar</a>
+            <a href="Bukuonlinepageoptions.html" class="btn">Buku Online</a>
+            <a href="Lainnya.html" class="btn">Lainnya...</a>
+        </div>
+    </div>
+
+</body>
+</html>
